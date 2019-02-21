@@ -1,0 +1,126 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <title>Arman academy</title>
+        <link rel="icon" href="{% static 'img/logo-small.png' %}" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
+  </head>
+<body>
+    
+    <section id="main-menu">
+      <div class="container">
+           <div class="row">
+               <div class="col-sm-2">
+                  <p id="logo">LCTRS</p>
+               </div>
+               <div class="col-sm-7">
+                  <ul id="menu-list">
+                      <li id="menu-list-name"><a class="home" href="/">Home</a></li>
+                      <li id="menu-list-name"><a class="about" href="/about">About</a></li>
+                      <li id="menu-list-name"><a class="course" href="/course">Course</a></li>
+                      <li id="menu-list-name"><a class="event" href="/event">Event</a></li>
+                      <li id="menu-list-name"><a class="blog" href="/blog">Blog</a></li>
+                      <li id="menu-list-name"><a class="contact" href="/contact">Contact</a></li>
+                  </ul>
+               </div>
+               <div class="col-sm-3">
+                  <ul id="singup-list">
+                    <li id="singup-list-name"><span><i class="fas fa-arrow-circle-right"></i></span><a>Singup</a></li>
+                    <li id="singup-list-name"><span><i class="fas fa-user-alt"></i></span><a>Login</a></li>
+                  </ul>
+               </div>
+           </div>
+      </div>
+    </section><!--       Main Menu     -->
+
+    <section id="mobile-menu">
+        <div id="mobile-menu-button-box">
+             <span id="mobile-menu-logo">LCTRS</span>
+             <span id="mobile-menu-button"><i class="fa fa-bars side-menu-bar"></i></span>
+        </div>
+        <ul id="mobile-menu-list">
+              <a href="/"><li id="mobile-menu-list-name" class="home">Home</li></a>
+              <a href="/about"><li id="mobile-menu-list-name" class="about">About</li></a>
+              <a href="/course"><li id="mobile-menu-list-name" class="course">Course</li></a>
+              <a href="/event"><li id="mobile-menu-list-name" class="event">Event</li></a>
+              <a href="/blog"><li id="mobile-menu-list-name" class="blog">Blog</li></a>
+              <a href="/contact"><li id="mobile-menu-list-name" class="contact">Contact</li></a>
+              <li id="mobile-menu-list-name"><span><i class="fas fa-arrow-circle-right"></i></span>Singup</li>
+              <li id="mobile-menu-list-name"><span><i class="fas fa-user-alt"></i></span>Login</li>
+        </ul>
+    </section><!--       Mobile Menu     -->
+
+
+    <main>
+          {% block content %}{% endblock %}
+    </main>
+
+
+     <section id="footer-section">
+      <div class="container">
+           <div class="row">
+              <div class="col-sm-3" id="footer-box-part">
+                 <p id="footer-row-title">ABOUT US</p>
+                 <p id="footer-row-des">At vero eos et accusamus et iusto stagnismos ducimus os quidtiiss praetium ptatu mole deeniti .</p>
+                 <div id="footer-text-box">
+                   <i class="fa fa-map"></i>
+                   <span>10th Floor,Washington Square Park, NY, United States.</span>
+                 </div>
+                  <div id="footer-text-box">
+                   <i class="fa fa-envelope"></i>
+                   <span>Support@domain.com</span>
+                 </div>
+                  <div id="footer-text-box">
+                   <i class="fa fa-phone"></i>
+                   <span>(004)+ 124 45 78 678</span>
+                 </div>
+              </div>
+              <div class="col-sm-3" id="footer-box-part">
+                 <p id="footer-row-title" class="link-title">LINKS</p>
+                 <ul id="footer-list">
+                    <li><i class="fa fa-chevron-right"></i><span>Home</span></li>
+                    <li><i class="fa fa-chevron-right"></i><span>About</span></li>
+                    <li><i class="fa fa-chevron-right"></i><span>Course</span></li>
+                    <li><i class="fa fa-chevron-right"></i><span>Lesson</span></li>
+                    <li><i class="fa fa-chevron-right"></i><span>Pages
+
+
+                    </span></li>
+                    <li><i class="fa fa-chevron-right"></i><span>Blog</span></li>
+                    <li><i class="fa fa-chevron-right"></i><span>Contact</span></li>
+                 </ul>
+              </div>
+              <div class="col-sm-3" id="footer-box-part">
+                 <p id="footer-row-title">Social Media</p>
+                 <ul id="footer-social-list">
+                    <li><a><i class="fab fa-behance"></i></a></li>
+                    <li><a><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a><i class="fab fa-twitter"></i></a></li>
+                    <li><a><i class="fab fa-dribbble"></i></a></li>
+                 </ul>
+              </div>
+              <div class="col-sm-3" id="footer-box-part">
+                 <p id="footer-row-title">NEWSLETTER</p>
+                 <p id="footer-row-des">Subscribe Our Newsletter get the Important News. The Amazing Offers & Inside Scoops:</p>
+                 <input type="" name="" placeholder="Email Address" id="footer-input"><a id="footer-button"><i class="fas fa-search"></i></a>
+              </div>
+           </div>
+      </div>
+     </section><!--      foooter   -->
+
+    <section id="compnay-name">
+         <p>© Copyright - 2018  Arman - Designed by Md Arman</p>
+    </section>
+
+</body>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <script type="text/javascript" src="{% static 'js/main.js' %}"></script>
+</html>

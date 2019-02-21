@@ -1,0 +1,240 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<style type="text/css">
+.course {
+    color: #fa6e4f !important;
+}
+</style>
+
+
+<section id="pages-name">
+       <div class="container">
+           <div class="row">
+             <div id="home-text-box">
+               <p id="home-text-title">Courses grid</p>
+               <span id="home-text-index">Home</span><span id="home-text-line">/</span><span id="home-text-name">Courses grid</span>
+             </div>  
+           </div>
+       </div>
+    </section><!--       pages name    -->
+
+    <section id="popular-courses-section">
+    	<div class="container">
+         <div class="row">
+             <div class="col-sm-12">
+                <div class="col-sm-4" id='course-row-box'>
+                   <img src="{% static 'img/course6.jpeg' %}" class="img-responsive popular-courses-img" >
+                   <div class="popular-courses-name">
+                       <p>Photo Editing</p>
+                   </div>
+                   <div class="popular-courses-price-box">
+                     <div class="popular-courses-start">
+                         <ul>
+                               <li><span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span></li>
+                               <li id="list-people-com"><span><i class="fas fa-comments"></i></span><span id="list-people-com-text">5</span></li>
+                             <li id="list-people-com"><span><i class="fas fa-user-alt person"></i></span><span id="list-people-com-text">250</span></li>
+                             
+                         </ul>
+                     </div>
+                     <div class="popular-courses-maindes">
+                          <p>Vitae habitasse senectus mattis elit semperrhoncus est etiam.</p>
+                     </div>
+                     <div class="popular-courses-buttongroup">
+                          <span class="enroll-button">enroll now</span>
+                          <span class="enroll-price-button">$77</span>
+                     </div>
+                    </div>   
+                </div>
+                <div class="col-sm-4" id='course-row-box'>
+                   <img src="{% static 'img/course7.jpeg' %}" class="img-responsive popular-courses-img" >
+                   <div class="popular-courses-name">
+                       <p>Graphics Design </p>
+                   </div>
+                   <div class="popular-courses-price-box">
+                     <div class="popular-courses-start">
+                         <ul>
+                               <li><span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span></li>
+                               <li id="list-people-com"><span><i class="fas fa-comments"></i></span><span id="list-people-com-text">7</span></li>
+                             <li id="list-people-com"><span><i class="fas fa-user-alt person"></i></span><span id="list-people-com-text">280</span></li>
+                             
+                         </ul>
+                     </div>
+                     <div class="popular-courses-maindes">
+                          <p>Vitae habitasse senectus mattis elit semperrhoncus est etiam.</p>
+                     </div>
+                     <div class="popular-courses-buttongroup">
+                          <span class="enroll-button">enroll now</span>
+                          <span class="enroll-price-button">$77</span>
+                     </div>
+                    </div>   
+                </div>
+                <div class="col-sm-4" id='course-row-box'>
+                   <img src="{% static 'img/course1.jpeg' %}" class="img-responsive popular-courses-img" >
+                   <div class="popular-courses-name">
+                       <p>Digital Strategy </p>
+                   </div>
+                   <div class="popular-courses-price-box">
+                     <div class="popular-courses-start">
+                         <ul>
+                               <li><span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span></li>
+                               <li id="list-people-com"><span><i class="fas fa-comments"></i></span><span id="list-people-com-text">9</span></li>
+                             <li id="list-people-com"><span><i class="fas fa-user-alt person"></i></span><span id="list-people-com-text">310</span></li>
+                             
+                         </ul>
+                     </div>
+                     <div class="popular-courses-maindes">
+                          <p>Vitae habitasse senectus mattis elit semperrhoncus est etiam.</p>
+                     </div>
+                     <div class="popular-courses-buttongroup">
+                          <span class="enroll-button">enroll now</span>
+                          <span class="enroll-price-button">$77</span>
+                     </div>
+                    </div>   
+                </div>
+                <div class="col-sm-4" id='course-row-box'>
+                   <img src="{% static 'img/course2.jpeg' %}" class="img-responsive popular-courses-img" >
+                   <div class="popular-courses-name">
+                       <p>Digital Marketing Strategy </p>
+                   </div>
+                   <div class="popular-courses-price-box">
+                     <div class="popular-courses-start">
+                         <ul>
+                               <li><span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span></li>
+                               <li id="list-people-com"><span><i class="fas fa-comments"></i></span><span id="list-people-com-text">5</span></li>
+                             <li id="list-people-com"><span><i class="fas fa-user-alt person"></i></span><span id="list-people-com-text">250</span></li>
+                             
+                         </ul>
+                     </div>
+                     <div class="popular-courses-maindes">
+                          <p>Vitae habitasse senectus mattis elit semperrhoncus est etiam.</p>
+                     </div>
+                     <div class="popular-courses-buttongroup">
+                          <span class="enroll-button">enroll now</span>
+                          <span class="enroll-price-button">$77</span>
+                     </div>
+                    </div>   
+                </div>
+                <div class="col-sm-4" id='course-row-box'>
+                   <img src="{% static 'img/course9.jpeg' %}" class="img-responsive popular-courses-img" >
+                   <div class="popular-courses-name">
+                       <p>Shopify Course</p>
+                   </div>
+                   <div class="popular-courses-price-box">
+                     <div class="popular-courses-start">
+                         <ul>
+                               <li><span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span></li>
+                               <li id="list-people-com"><span><i class="fas fa-comments"></i></span><span id="list-people-com-text">7</span></li>
+                             <li id="list-people-com"><span><i class="fas fa-user-alt person"></i></span><span id="list-people-com-text">280</span></li>
+                             
+                         </ul>
+                     </div>
+                     <div class="popular-courses-maindes">
+                          <p>Vitae habitasse senectus mattis elit semperrhoncus est etiam.</p>
+                     </div>
+                     <div class="popular-courses-buttongroup">
+                          <span class="enroll-button">enroll now</span>
+                          <span class="enroll-price-button">$77</span>
+                     </div>
+                    </div>   
+                </div>
+                <div class="col-sm-4" id='course-row-box'>
+                   <img src="{% static 'img/course8.jpeg' %}" class="img-responsive popular-courses-img" >
+                   <div class="popular-courses-name">
+                       <p>Androind Marketing </p>
+                   </div>
+                   <div class="popular-courses-price-box">
+                     <div class="popular-courses-start">
+                         <ul>
+                               <li><span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span></li>
+                               <li id="list-people-com"><span><i class="fas fa-comments"></i></span><span id="list-people-com-text">9</span></li>
+                             <li id="list-people-com"><span><i class="fas fa-user-alt person"></i></span><span id="list-people-com-text">310</span></li>
+                             
+                         </ul>
+                     </div>
+                     <div class="popular-courses-maindes">
+                          <p>Vitae habitasse senectus mattis elit semperrhoncus est etiam.</p>
+                     </div>
+                     <div class="popular-courses-buttongroup">
+                          <span class="enroll-button">enroll now</span>
+                          <span class="enroll-price-button">$77</span>
+                     </div>
+                    </div>   
+                </div>
+                <div class="col-sm-4" id='course-row-box'>
+                   <img src="{% static 'img/course3.jpeg' %}" class="img-responsive popular-courses-img" >
+                   <div class="popular-courses-name">
+                       <p>Woocommerce Development </p>
+                   </div>
+                   <div class="popular-courses-price-box">
+                     <div class="popular-courses-start">
+                         <ul>
+                               <li><span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span></li>
+                               <li id="list-people-com"><span><i class="fas fa-comments"></i></span><span id="list-people-com-text">9</span></li>
+                             <li id="list-people-com"><span><i class="fas fa-user-alt person"></i></span><span id="list-people-com-text">310</span></li>
+                             
+                         </ul>
+                     </div>
+                     <div class="popular-courses-maindes">
+                          <p>Vitae habitasse senectus mattis elit semperrhoncus est etiam.</p>
+                     </div>
+                     <div class="popular-courses-buttongroup">
+                          <span class="enroll-button">enroll now</span>
+                          <span class="enroll-price-button">$77</span>
+                     </div>
+                    </div>   
+                </div>
+                <div class="col-sm-4" id='course-row-box'>
+                   <img src="{% static 'img/course4.jpeg' %}" class="img-responsive popular-courses-img" >
+                   <div class="popular-courses-name">
+                       <p>Yotube Marketing </p>
+                   </div>
+                   <div class="popular-courses-price-box">
+                     <div class="popular-courses-start">
+                         <ul>
+                               <li><span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span></li>
+                               <li id="list-people-com"><span><i class="fas fa-comments"></i></span><span id="list-people-com-text">9</span></li>
+                             <li id="list-people-com"><span><i class="fas fa-user-alt person"></i></span><span id="list-people-com-text">310</span></li>
+                             
+                         </ul>
+                     </div>
+                     <div class="popular-courses-maindes">
+                          <p>Vitae habitasse senectus mattis elit semperrhoncus est etiam.</p>
+                     </div>
+                     <div class="popular-courses-buttongroup">
+                          <span class="enroll-button">enroll now</span>
+                          <span class="enroll-price-button">$77</span>
+                     </div>
+                    </div>   
+                </div>
+                <div class="col-sm-4" id='course-row-box'>
+                   <img src="{% static 'img/course5.jpeg' %}" class="img-responsive popular-courses-img" >
+                   <div class="popular-courses-name">
+                       <p>WordPress Plugin Dev </p>
+                   </div>
+                   <div class="popular-courses-price-box">
+                     <div class="popular-courses-start">
+                         <ul>
+                               <li><span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span></li>
+                               <li id="list-people-com"><span><i class="fas fa-comments"></i></span><span id="list-people-com-text">9</span></li>
+                             <li id="list-people-com"><span><i class="fas fa-user-alt person"></i></span><span id="list-people-com-text">310</span></li>
+                             
+                         </ul>
+                     </div>
+                     <div class="popular-courses-maindes">
+                          <p>Vitae habitasse senectus mattis elit semperrhoncus est etiam.</p>
+                     </div>
+                     <div class="popular-courses-buttongroup">
+                          <span class="enroll-button">enroll now</span>
+                          <span class="enroll-price-button">$77</span>
+                     </div>
+                    </div>   
+                </div>
+             </div>
+         </div>
+      </div>
+    </section><!--       Our course    -->
+
+
+ {% endblock %} 

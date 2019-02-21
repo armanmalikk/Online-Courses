@@ -1,0 +1,423 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<style type="text/css">
+.home {
+    color: #fa6e4f !important;
+}
+</style>
+
+
+    <section id="top-section">
+    	<div class="container">
+    	  <div class="row">
+    	  	 <div class="col-sm-12">
+    	  	   <div id="top-textbox">
+                 <p id="top-textbox-sub">Premium Education Themplate</p>
+                 <h1 id="top-textbox-title">L C T R S </h1>
+                 <p id="top-textbox-des">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet voluptas placeat cupiditate neque eligendi facilis cum commodi.
+                 </p>
+                 <p id="top-textbox-button">Learn more</p>
+    	  	  </div>
+    	  	  <div id="bottom-textbox">
+                  <span><i class="fas fa-map-marker"></i></span><span id="local-address">78 Lorem St, New York, NY</span>
+                  <ul id="bottom-social-media">
+                     <li><a><i class="fab fa-youtube"></i></a></li>
+                     <li><a><i class="fab fa-facebook-f"></i></a></li>
+                     <li><a><i class="fab fa-twitter"></i></a></li>
+                  </ul>
+    	  	  </div>
+    	  	</div>  
+    	  </div>
+    	</div>
+    </section><!--       Wallpaper Section     -->
+
+    <section id="popular-courses-section">
+    	<div class="container">
+         <div class="row">
+             <div class="col-sm-12">
+                <div id="popular-courses-text">
+                    <p id="popular-courses-title">Our Popular Courses</p>
+                    <hr id="popular-courses-line">
+                    <p id="popular-courses-des">Enim semper, gravida interdum nullam, pellentesque adipiscing scelerisque vitae dui, magnis platea. Ac sagittis ridiculus Est ac sollicitudin varius integer laoreet morbi porta</p>
+                </div>
+                <div class="col-sm-4">
+                   <img src="{% static 'img/course2.jpeg' %}" class="img-responsive popular-courses-img" >
+                   <div class="popular-courses-name">
+                       <p>Digital Marketing Strategy </p>
+                   </div>
+                   <div class="popular-courses-price-box">
+                     <div class="popular-courses-start">
+                         <ul>
+                               <li><span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span></li>
+                               <li id="list-people-com"><span><i class="fas fa-comments"></i></span><span id="list-people-com-text">5</span></li>
+                             <li id="list-people-com"><span><i class="fas fa-user-alt person"></i></span><span id="list-people-com-text">250</span></li>
+                             
+                         </ul>
+                     </div>
+                     <div class="popular-courses-maindes">
+                          <p>Vitae habitasse senectus mattis elit semperrhoncus est etiam.</p>
+                     </div>
+                     <div class="popular-courses-buttongroup">
+                          <span class="enroll-button">enroll now</span>
+                          <span class="enroll-price-button">$77</span>
+                     </div>
+                    </div>   
+                </div>
+                <div class="col-sm-4">
+                   <img src="{% static 'img/course9.jpeg' %}" class="img-responsive popular-courses-img" >
+                   <div class="popular-courses-name">
+                       <p>Digital Strategy </p>
+                   </div>
+                   <div class="popular-courses-price-box">
+                     <div class="popular-courses-start">
+                         <ul>
+                               <li><span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span></li>
+                               <li id="list-people-com"><span><i class="fas fa-comments"></i></span><span id="list-people-com-text">7</span></li>
+                             <li id="list-people-com"><span><i class="fas fa-user-alt person"></i></span><span id="list-people-com-text">280</span></li>
+                             
+                         </ul>
+                     </div>
+                     <div class="popular-courses-maindes">
+                          <p>Vitae habitasse senectus mattis elit semperrhoncus est etiam.</p>
+                     </div>
+                     <div class="popular-courses-buttongroup">
+                          <span class="enroll-button">enroll now</span>
+                          <span class="enroll-price-button">$77</span>
+                     </div>
+                    </div>   
+                </div>
+                <div class="col-sm-4">
+                   <img src="{% static 'img/course8.jpeg' %}" class="img-responsive popular-courses-img" >
+                   <div class="popular-courses-name">
+                       <p>Androind Marketing </p>
+                   </div>
+                   <div class="popular-courses-price-box">
+                     <div class="popular-courses-start">
+                         <ul>
+                               <li><span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span></li>
+                               <li id="list-people-com"><span><i class="fas fa-comments"></i></span><span id="list-people-com-text">9</span></li>
+                             <li id="list-people-com"><span><i class="fas fa-user-alt person"></i></span><span id="list-people-com-text">310</span></li>
+                             
+                         </ul>
+                     </div>
+                     <div class="popular-courses-maindes">
+                          <p>Vitae habitasse senectus mattis elit semperrhoncus est etiam.</p>
+                     </div>
+                     <div class="popular-courses-buttongroup">
+                          <span class="enroll-button">enroll now</span>
+                          <span class="enroll-price-button">$77</span>
+                     </div>
+                    </div>   
+                </div>
+             </div>
+         </div>
+      </div>
+    </section><!--       course Section     -->
+
+    <section id="why-us-section">
+      <div class="container">
+        <div class="row">
+           <div class="col-sm-12">
+              <div class="col-sm-6">
+                  <p id="why-us-title">Why Choose Us</p>
+                  <hr id="why-us-line">
+                  <p id="why-us-des">Auctor eleifend egestas felis a suscipit, amet ultricies orci. Eget nonummy ultrices magna ornare tellus molestie.</p>
+                  <div id="why-us-reson">
+                      <div class="col-sm-12 col-xs-12" id="why-us-icon-section">
+                          <div class="col-sm-2 col-xs-2" id="why-us-icon-box">
+                              <i class="fas fa-book-open"></i>
+                          </div>
+                          <div class="col-sm-10 col-xs-10" id="why-us-group-text">
+                              <p id="why-us-group-title">Best Education System</p>
+                              <p id="why-us-group-des">Advance Education Management</p>
+                          </div>
+                      </div>
+                      <div class="col-sm-12 col-xs-12" id="why-us-icon-section">
+                          <div class="col-sm-2 col-xs-2" id="why-us-icon-box">
+                              <i class="fas fa-graduation-cap"></i>
+                          </div>
+                          <div class="col-sm-10 col-xs-10" id="why-us-group-text">
+                              <p id="why-us-group-title">Learning Management</p>
+                              <p id="why-us-group-des">LMS Integration</p>
+                          </div>
+                      </div>
+                      <div class="col-sm-12 col-xs-12" id="why-us-icon-section">
+                          <div class="col-sm-2 col-xs-2" id="why-us-icon-box">
+                              <i class="fas fa-certificate"></i>
+                          </div>
+                          <div class="col-sm-10 col-xs-10" id="why-us-group-text">
+                              <p id="why-us-group-title">Online Certification</p>
+                              <p id="why-us-group-des">Performance Based Certificate</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm-6">
+                  <img src="{% static 'img/why-us.jpeg' %}" class="img-responsive" id="why-us-img">
+              </div>
+           </div>
+        </div>
+      </div>
+    </section><!--      Why us    -->
+
+    <section id="services-number-section">
+          <div class="container">
+             <div class="row">
+                <div class="col-sm-3" id="number-icon-box-main">
+                   <span id="number-icon-box">
+                      3265
+                   </span>
+                   <p id="serveice-number-des">Passed Graduates</p>
+                </div>
+                <div class="col-sm-3" id="number-icon-box-main">
+                   <span id="number-icon-box">
+                      256 + 
+                   </span>
+                   <p id="serveice-number-des">Courses Published</p>
+                </div>
+                <div class="col-sm-3" id="number-icon-box-main">
+                   <span id="number-icon-box">
+                      256
+                   </span>
+                   <p id="serveice-number-des">Qualified Staff</p>
+                </div>
+                <div class="col-sm-3" id="number-icon-box-main">
+                   <span id="number-icon-box">
+                      155
+                   </span>
+                   <p id="serveice-number-des">Countries Reachd</p>
+                </div>
+             </div>
+          </div> 
+    </section><!--      Number section    -->
+
+    <section id="Upcoming-section">
+      <div class="container">
+         <div class="row">
+           <div class="col-sm-12">
+              <div id="Upcoming-text-box">
+                 <p id="Upcoming-title">Upcoming Event</p>
+                 <hr id="Upcoming-line">
+              </div>
+              <div class="col-sm-12" id="data-boxes-time">
+                <div class="col-sm-9 main-date-line" id="Upcoming-list-box">
+                  <div class="col-sm-2 col-xs-2" id="Upcoming-list-date">
+                      <p id="Upcoming-list-date-number">02</p>
+                      <p id="Upcoming-list-date-text">March</p>
+                  </div>
+                  <div class="col-sm-10 col-xs-10" id="Upcoming-list-box">
+                      <p id="Upcoming-list-pro-title">Call for applications for the 2018 Letten Prize</p>
+                      <span id="Upcoming-list-pro-time"><i class="far fa-clock"></i><a>8:00 am - 5:00 pm</a></span>
+                      <span id="Upcoming-list-pro-location"><i class="fas fa-map-marker-alt"></i><a>London city,wclb uk</a></span>
+                      <p id="Upcoming-register-button">Register</p>
+                  </div>
+                </div>
+                <div class="col-sm-3" id="Upcoming-list-img-box">
+                  <img src="{% static 'img/popular-course1.jpg' %}" id="Upcoming-list-side-img">
+                </div>
+              </div>
+              <div class="col-sm-12" id="data-boxes-time">
+                <div class="col-sm-9 main-date-line" id="Upcoming-list-box">
+                  <div class="col-sm-2 col-xs-2" id="Upcoming-list-date">
+                      <p id="Upcoming-list-date-number">04</p>
+                      <p id="Upcoming-list-date-text">March</p>
+                  </div>
+                  <div class="col-sm-10 col-xs-10" id="Upcoming-list-box">
+                      <p id="Upcoming-list-pro-title">Call for applications for the 2018 Letten Prize</p>
+                      <span id="Upcoming-list-pro-time"><i class="far fa-clock"></i><a>8:00 am - 5:00 pm</a></span>
+                      <span id="Upcoming-list-pro-location"><i class="fas fa-map-marker-alt"></i><a>London city,wclb uk</a></span>
+                      <p id="Upcoming-register-button">Register</p>
+                  </div>
+                </div>
+                <div class="col-sm-3" id="Upcoming-list-img-box">
+                  <img src="{% static 'img/popular-course2.jpg' %}" id="Upcoming-list-side-img">
+                </div>
+              </div>
+              <div class="col-sm-12" id="data-boxes-time">
+                <div class="col-sm-9 main-date-line" id="Upcoming-list-box">
+                  <div class="col-sm-2 col-xs-2" id="Upcoming-list-date">
+                      <p id="Upcoming-list-date-number">08</p>
+                      <p id="Upcoming-list-date-text">March</p>
+                  </div>
+                  <div class="col-sm-10 col-xs-10" id="Upcoming-list-box">
+                      <p id="Upcoming-list-pro-title">Call for applications for the 2018 Letten Prize</p>
+                      <span id="Upcoming-list-pro-time"><i class="far fa-clock"></i><a>8:00 am - 5:00 pm</a></span>
+                      <span id="Upcoming-list-pro-location"><i class="fas fa-map-marker-alt"></i><a>London city,wclb uk</a></span>
+                      <p id="Upcoming-register-button">Register</p>
+                  </div>
+                </div>
+                <div class="col-sm-3" id="Upcoming-list-img-box">
+                  <img src="{% static 'img/popular-course3.jpg' %}" id="Upcoming-list-side-img">
+                </div>
+              </div>    
+           </div>
+         </div>
+      </div>
+    </section><!--      Upcoming event section    -->
+
+    <section id="register-section">
+      <div class="container">
+        <div class="row">
+           <div class="col-sm-12">
+              <div class="col-sm-6">
+                  <div id="register-from">
+                     <div id="from-header">
+                        <p id="from-header-title">Register Now</p>
+                        <p id="from-header-des">Create your account and browse thousand of courses!!</p>
+                     </div>
+                     <div id="register-from-box">
+                       <input type="" name="" placeholder="Your Name">
+                     </div>
+                     <div id="register-from-box">
+                       <input type="" name="" placeholder="Email Address">
+                     </div>
+                     <div id="register-from-box">
+                       <input type="Number" name="" placeholder="Your Phone">
+                     </div>
+                     <div id="register-from-box">
+                       <input type="Password" name="" placeholder="Choose Password">
+                     </div>
+                     <div id="register-from-box-button">
+                       <p>Singup Now</p>
+                     </div>
+                  </div> 
+              </div>
+              <div class="col-sm-6">
+                  <img src="{% static 'img/resgister-now-man.png' %}" id="register-img" class="img-responsive">
+              </div>
+           </div>
+        </div>
+      </div>
+    </section><!--      Register Now Now    -->
+
+    <section id="our-instructor-section">
+       <div class="container">
+          <div class="row">
+              <div class="col-sm-12">
+                  <div id="popular-courses-text">
+                    <p id="popular-courses-title">Our Instructor</p>
+                    <hr id="popular-courses-line">
+                    <p id="popular-courses-des">Enim semper, gravida interdum nullam, pellentesque adipiscing scelerisque vitae dui, magnis platea. Ac sagittis ridiculus Est ac sollicitudin varius integer laoreet morbi porta</p>
+                  </div>
+                  <div class="col-sm-3">
+                      <img src="{% static 'img/testimonial-author2.jpg' %}" id="Instructor-img" class="img-responsive">
+                      <div id="our-instructor-text-box">
+                          <p id="our-instructor-name">J. Renz</p>
+                          <p id="our-instructor-position">Ext. Instructor</p>
+                      </div>
+                  </div>
+                  <div class="col-sm-3">
+                      <img src="{% static 'img/testimonial-author3.jpg' %}" id="Instructor-img" class="img-responsive">
+                      <div id="our-instructor-text-box">
+                          <p id="our-instructor-name">Maya Joske</p>
+                          <p id="our-instructor-position">Department Head</p>
+                      </div>
+                  </div>
+                  <div class="col-sm-3">
+                      <img src="{% static 'img/testimonial-author4.jpg' %}" id="Instructor-img" class="img-responsive">
+                      <div id="our-instructor-text-box">
+                          <p id="our-instructor-name">Sr. Instructor</p>
+                          <p id="our-instructor-position">Banking Departmental Head</p>
+                      </div>
+                  </div>
+                  <div class="col-sm-3">
+                      <img src="{% static 'img/testimonial-author5.jpg' %}" id="Instructor-img" class="img-responsive">
+                      <div id="our-instructor-text-box">
+                          <p id="our-instructor-name">Michael E.</p>
+                          <p id="our-instructor-position">Physics Teacher</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+       </div>
+    </section><!--      Our Instructor    -->
+
+    <section id="people-say">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+             <div id="popular-courses-text">
+                    <p id="what-say-title">What People Say</p>
+                    <hr id="popular-courses-line">
+                    <p id="what-say-des">Enim semper, gravida interdum null pellentesque adipiscing scelerisque vitae magnis platea. Ac sagittis ridiculus pellentesque. Est ac sollicitudin varius integer laoreet morbi porta</p>
+             </div>
+             <div class="col-sm-6">
+               <div class="col-sm-4">
+                  <img src="{% static 'img/about-author.png' %}" id="say-people">
+               </div>
+               <div class="col-sm-8" id="say-people-text-box">
+                  <p id="say-people-title">Roboto Max</p>
+                  <p id="say-people-subtitle">Company of Nation</p>
+                  <p id="say-people-des">Tellus at vulputate nulla neccommodovolutpat nec consectetur tempor magna morbi nec erat maecenas mattis mauris vel tempus nunc nam. Nunc sed sit aenean eos, fringilla quis id, fringilla s</p>
+                  <img src="{% static 'img/about-author-sign.png' %}" id="say-img-sign">
+               </div>
+             </div>
+             <div class="col-sm-6">
+               <div class="col-sm-4">
+                  <img src="{% static 'img/about-author2.png' %}" id="say-people">
+               </div>
+               <div class="col-sm-8" id="say-people-text-box">
+                  <p id="say-people-title">Roboto Max</p>
+                  <p id="say-people-subtitle">Company of Nation</p>
+                  <p id="say-people-des">Tellus at vulputate nulla neccommodovolutpat nec consectetur tempor magna morbi nec erat maecenas mattis mauris vel tempus nunc nam. Nunc sed sit aenean eos, fringilla quis id, fringilla s</p>
+                  <img src="{% static 'img/about-author-sign2.png' %}" id="say-img-sign">
+               </div>
+             </div>
+          </div>
+        </div>
+      </div>
+    </section><!--      what people say   -->
+
+    <section id="latest-new-section">
+      <div class="container">
+         <div class="row">
+             <div class="col-sm-12">
+                 <div id="popular-courses-text">
+                    <p id="popular-courses-title">Latest News</p>
+                    <hr id="popular-courses-line">
+                    <p id="popular-courses-des">Enim semper, gravida interdum nullam, pellentesque adipiscing scelerisque vitae dui, magnis platea. Ac sagittis ridiculus Est ac sollicitudin varius integer laoreet morbi porta</p>
+                 </div>
+                 <div class="col-sm-4" id="latest-new-box-part">
+                   <img src="{% static 'img/blog-img.jpg' %}" class="img-responsive">
+                   <div id="latest-new-text-box">
+                       <p id="latest-new-text-title">The Certificate giving ceremonyin.</p>
+                       <ul id="latest-new-list">
+                          <li id="list-people-com"><span><i class="fas fa-user-alt person latest-new"></i></span><span id="list-people-com-text">Hinox Mox</span></li> 
+                          <li id="list-people-com"><span><i class="fas fa-comments latest-new"></i></span><span id="list-people-com-text"> 03 Comments</span></li>
+                              
+                        </ul>
+                   </div>
+                 </div>
+                 <div class="col-sm-4" id="latest-new-box-part">
+                   <img src="{% static 'img/blog-img2.jpg' %}" class="img-responsive">
+                   <div id="latest-new-text-box">
+                       <p id="latest-new-text-title">The Certificate giving ceremonyin.</p>
+                       <ul id="latest-new-list">
+                          <li id="list-people-com"><span><i class="fas fa-user-alt person latest-new"></i></span><span id="list-people-com-text">Hinox Mox</span></li> 
+                          <li id="list-people-com"><span><i class="fas fa-comments latest-new"></i></span><span id="list-people-com-text"> 07 Comments</span></li>
+                              
+                        </ul>
+                   </div>
+                 </div>
+                 <div class="col-sm-4" id="latest-new-box-part">
+                   <img src="{% static 'img/blog-img3.jpg' %}" class="img-responsive">
+                   <div id="latest-new-text-box">
+                       <p id="latest-new-text-title">The Certificate giving ceremonyin.</p>
+                       <ul id="latest-new-list">
+                          <li id="list-people-com"><span><i class="fas fa-user-alt person latest-new"></i></span><span id="list-people-com-text">Hinox Mox</span></li> 
+                          <li id="list-people-com"><span><i class="fas fa-comments latest-new"></i></span><span id="list-people-com-text"> 09 Comments</span></li>
+                              
+                        </ul>
+                   </div>
+                 </div>
+             </div>
+         </div>
+      </div>
+    </section><!--      latest new   -->
+
+
+
+ {% endblock %}     
